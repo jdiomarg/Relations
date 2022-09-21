@@ -2,10 +2,10 @@ const express = require('express');
 
 // Controllers
 const {
-	getAllComments,
-	createComment,
-	updateComment,
-	deleteComment,
+  getAllComments,
+  createComment,
+  updateComment,
+  deleteComment,
 } = require('../controllers/comments.controller');
 
 // Middlewares
